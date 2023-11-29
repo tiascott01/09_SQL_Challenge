@@ -5,6 +5,7 @@ This repository contains a two correlating SQL files (Schema and Query), a "Quer
 Results
 In the 09_SQL_Challenge, this dataset is an SQL query of 6 different resources. A schema was created to create individual tables in SQL and then create primary and foreign keys which "appends" data together via columns in each table. In order to run specific queries against the schema, a Query.SQL file was created to further analyze the data in regards to specific conditions. Once the query had been run, a corresponding CSV was exported to a Queries folder and labeled per the query number. Finally an Entity Relationship Diagram was created to address which files were used and their relationship to each other. In the diagram, the Primary Keys are noted next to the table line and the Foreign Keys are noted as the lines which tie each relationship together.
 
+---
 Usage
 You can use this method to analyze the data in the corresponding resource CSV's.
 
