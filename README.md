@@ -30,12 +30,10 @@ Make sure that all the Schema files have been run properly. If all has been run 
 After the query has been displayed, export the result of the query to a CSV file.
 
 
+
+
 ### Resources and Citations
 
-Office Help - Kristina D'Alessio
-
-Linear Regression as a Function - Davin Frankosky
-
-API Key Help and General Questions - BCS Assistant
+Quick DBD - https://www.quickdatabasediagrams.com/
 
 General - ChatGpt.com
