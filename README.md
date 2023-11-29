@@ -34,6 +34,6 @@ Ensure that the delimeter and header rows are imported correctly.
 
 ## Resources and Citations
 
-Quick DBD - https://www.quickdatabasediagrams.com/
+Quick DBD, Initial Schema Layout - https://www.quickdatabasediagrams.com/
 
 General - ChatGpt.com
