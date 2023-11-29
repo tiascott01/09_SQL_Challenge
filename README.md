@@ -5,29 +5,30 @@ This repository contains a two correlating SQL files (Schema and Query), a "Quer
 Results
 In the 09_SQL_Challenge, this dataset is an SQL query of 6 different resources. A schema was created to create individual tables in SQL and then create primary and foreign keys which "appends" data together via columns in each table. In order to run specific queries against the schema, a Query.SQL file was created to further analyze the data in regards to specific conditions. Once the query had been run, a corresponding CSV was exported to a Queries folder and labeled per the query number. Finally an Entity Relationship Diagram was created to address which files were used and their relationship to each other. In the diagram, the Primary Keys are noted next to the table line and the Foreign Keys are noted as the lines which tie each relationship together.
 
---
-Usage
+
+# Usage
 You can use this method to analyze the data in the corresponding resource CSV's.
 
-Open the respective file (`Schema.SQL) in PostgreS or PgAdmin4.
+Open the respective file ('Schema.SQL') in PostgreS or PgAdmin4.
 
-Upon opening the Schema file, run .
+Upon opening the Schema file, run the first step to drop all the tables if they already exist. 
+If you get an error, you may need to force close all the tables in the schema.
 
-Cells requiring the API key will not work without the key.
+Once all the tables have been dropped, run the second step and individually create all the tables in the schema.
 
-Run individual cells within the (`WeatherPy.ipynb) to see the calculations of breakdown by category.
+Once all the tables are created, navigate to the specific table in the database navigator. Import the corresponding CSV to the corresponding table. 
+Ensure that the delimeter and header rows are imported correctly.
 
-Results will be exported from the notebook into another outbound folder.
+Once the data has been imported into the corresponding table, run the 4th step and tie the tables together with the primary keys and foreign keys. 
 
-After all the cells are run the notebook will be finished.
+After the steps in the schema have been run, you can begin to query specific requests.
 
-Open the respective file (`VacationPy.ipynb) in Jupyter Notebook.
+Open the respective file ('Query.SQL') in PostgreS or PgAdmin4.
 
-Make sure that the resource and analysis directories are congruent within their respective places as listed in the script, if not change the location.
+Make sure that all the Schema files have been run properly. If all has been run properly, begin running individual queries.
 
-Cells requiring the API key will not work without the key.
+After the query has been displayed, export the result of the query to a CSV file.
 
-Run individual cells within the (`VacationPy.ipynb) to see the calculations of breakdown by category.
 
 Resources and Citations
 Office Help - Kristina D'Alessio
